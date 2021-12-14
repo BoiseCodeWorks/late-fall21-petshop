@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rFwfgdDA9kY5rF9Q77ZQv0umbWGAWyfliumD9iHlCil1IMtYQvoV17/FxZNETMbLmMH2OxliQCcfcU5J4euybQ==",
+  "success": true,
+  "projectFilePath": "C:\\source\\codeworks\\late-fall21\\petshop\\petshop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MarkO\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\MarkO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MarkO\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\MarkO\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\MarkO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\MarkO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
