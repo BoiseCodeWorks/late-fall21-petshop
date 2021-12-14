@@ -45,6 +45,38 @@ namespace petshop.Controllers
       }
     }
 
+    [HttpPost]
+    // Translation: req.body => [FromBody]
+    public ActionResult<Cat> Create([FromBody] Cat newCat)
+    {
+      try
+      {
+        Cat cat = _cs.Create(newCat);
+        return Ok(cat);
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+
+
+    [HttpPut("{id}")]
+    // Translation: req.body => [FromBody]
+    public ActionResult<Cat> Create([FromBody] Cat updatedCat, string id)
+    {
+      try
+      {
+        updatedCat.Id = id;
+        Cat cat = _cs.Update(updatedCat);
+        return Ok(cat);
+      }
+      catch (Exception e)
+      {
+        return BadRequest(e.Message);
+      }
+    }
+
 
     [HttpDelete("{id}")]
     public ActionResult<String> Remove(string id)
